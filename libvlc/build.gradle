@@ -2,6 +2,7 @@ apply plugin: 'com.android.library'
 
 import com.android.builder.core.DefaultManifestParser
 
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
@@ -95,4 +96,31 @@ task buildDebugMIPS64(type:BuildNative) {
 }
 dependencies {
     compile 'com.android.support:support-annotations:24.2.1'
+    compile 'com.inthecheesefactory.thecheeselibrary:fb-like:0.9.3'
 }
+
+ext {
+    bintrayRepo = 'Android'
+    bintrayName = 'android-vlc-lib'
+
+    publishedGroupId = 'com.damavandi.android-vlc-lib'
+    libraryName = 'android-vlc-lib'
+    artifact = 'android-vlc-lib'
+
+    libraryDescription = 'VLC android library'
+
+
+    siteUrl = 'https://github.com/m-damavandi/Android-VLC-Sample'
+    gitUrl = 'https://github.com/m-damavandi/Android-VLC-Sample.git'
+
+    libraryVersion = '0.1.0'
+
+    developerId = 'damavandi'
+    developerName = 'mohammad damavandi'
+    developerEmail = 'damavandi@email.com'
+
+}
+
+// Place it at the end of the file
+apply from: 'https://raw.githubusercontent.com/m-damavandi/Android-VLC-Sample/master/build.gradle'
+apply from: 'https://raw.githubusercontent.com/m-damavandi/Android-VLC-Sample/master/libvlc/build.gradle'
