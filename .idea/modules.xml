@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android-VLC-Sample.iml" filepath="$PROJECT_DIR$/Android-VLC-Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-vlc-lib/android-vlc-lib.iml" filepath="$PROJECT_DIR$/android-vlc-lib/android-vlc-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libvlc/libvlc.iml" filepath="$PROJECT_DIR$/libvlc/libvlc.iml" />
     </modules>
   </component>
 </project>
