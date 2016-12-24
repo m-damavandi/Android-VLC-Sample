@@ -1,4 +1,4 @@
-package com.rasad.damavandi.myvlc;
+package com.damavandi.androidVlcSample;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.rasad.damavandi.myvlc.R;
 
 import org.videolan.libvlc.IVLCVout;
 import org.videolan.libvlc.LibVLC;

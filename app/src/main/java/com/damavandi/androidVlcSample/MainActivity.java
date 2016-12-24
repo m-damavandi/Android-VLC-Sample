@@ -1,4 +1,4 @@
-package com.rasad.damavandi.myvlc;
+package com.damavandi.androidVlcSample;
 
 import android.annotation.TargetApi;
 import android.net.Uri;
@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.SurfaceView;
 import android.widget.FrameLayout;
+
+import com.rasad.damavandi.myvlc.R;
 
 import org.videolan.libvlc.IVLCVout;
 import org.videolan.libvlc.LibVLC;

@@ -1,8 +1,10 @@
-package com.rasad.damavandi.myvlc;
+package com.damavandi.androidVlcSample;
 
 import android.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.rasad.damavandi.myvlc.R;
 
 public class Main extends AppCompatActivity {
 
