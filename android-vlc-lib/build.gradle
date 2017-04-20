@@ -112,7 +112,7 @@ ext {
     siteUrl = 'https://github.com/m-damavandi/Android-VLC-Sample'
     gitUrl = 'https://github.com/m-damavandi/Android-VLC-Sample.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'damavandi'
     developerName = 'mohammad damavandi'
