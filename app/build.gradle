@@ -15,8 +15,67 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            productFlavors {
+//        arm {
+//            ndk {
+//                abiFilter "armeabi"
+//            }
+//            versionCode = 1
+//        }
+                armv8 {
+                    flavorDimension "abi"
+                    ndk {
+                        abiFilter "arm64-v8a"
+                    }
+                    versionCode = 2
+                }
+                armv7 {
+                    flavorDimension "abi"
+                    ndk {
+                        abiFilter "armeabi-v7a"
+                    }
+                    versionCode = 3
+                }
+                x86 {
+                    flavorDimension "abi"
+                    ndk {
+                        abiFilter "x86"
+                    }
+                    versionCode = 4
+                }
+                x86_64 {
+                    flavorDimension "abi"
+                    ndk {
+                        abiFilter "x86_64"
+                    }
+                    versionCode = 5
+                }
+                fat {
+                    flavorDimension "abi"
+                    versionCode = 6
+                }
+            }
+        }
+        debug{
+            ndk {
+                abiFilter "x86"
+            }
         }
     }
+
+
+    flavorDimensions "abi"
+
+
+//    defaultConfig {
+//
+//        externalNativeBuild {
+//            ndkBuild {
+//                abiFilters "armeabi-v7a", "x86"
+//            }
+//        }
+//    }
 }
 
 dependencies {

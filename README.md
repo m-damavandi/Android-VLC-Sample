@@ -8,6 +8,6 @@ vlc player embeded on fragment
 ### dependency
 ```
 dependencies {
-    compile 'com.damavandi:android-vlc-lib:1.0.0'
+    compile 'com.damavandi:android-vlc-lib:1.0.1'
 }
 ```
